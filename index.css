@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    height: 4%;
+    display: flex;
+    border-bottom: inset;
+    margin-top: -1%;
+}
+
+.logo {
+    margin-left: 1%;
+    margin-top: 1%;
+    height: 50px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 77%;
+}
+
+.links a {
+    margin-top: -15%;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: blue;
+}
+
+.main {
+    margin-left: 15%;
+    width: 60%;
+    height: 67vh;
+}
+
+.main img {
+    width: 180px;
+    height: 35px;
+}
+
+.paragraph {
+    font-size: large;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#pass-label {
+    margin-top: 5%;
+}
+
+label[for=check] {
+    font-size: small;
+}
+
+input {
+    height: 25px;
+}
+
+input[type=email], input[type=password] {
+    width: 80%;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3%;
+}
+
+button {
+    text-transform: uppercase;
+    width: 40%;
+    margin-top: 3%;
+    height: 50px;
+    color: #BFBDBD;
+    background-color: #FFFFFF;
+    border: dashed 2px #BFBDBD;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    font-weight:900;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: #000000;
+    color: #000000;
+}
+
+.footer {
+    border-top: solid 2px #F2F0F0;
+    margin-top: 5%;
+    display: flex;
+    font-weight: bold;
+}
+
+.footer p {
+    margin-top: 1%;
+    margin-left: 10px;
+}
+
+#terms {
+    margin-left: 15%;
+}
+
+#privacy, #dmca {
+    margin-left: 3%;
+}
+
+
+
